@@ -1,0 +1,103 @@
+@font-face{
+	font-family: 'Bellota-Italic';
+	src: url("../fonts/Bellota-Italic.otf");
+}
+@font-face{
+	font-family: 'Bellota-LightItalic';
+	src: url("../fonts/Bellota-LightItalic.otf");
+}
+@font-face{
+	font-family: 'Bellota-BoldItalic';
+	src: url("../fonts/Bellota-BoldItalic.otf");
+}
+@font-face{
+	font-family: 'Bellota-Bold';
+	src: url("../fonts/Bellota-Bold.otf");
+}
+
+html, body{
+	height: 100%;
+	min-height: 100%; 
+
+}
+
+form{
+	text-align: center;
+}
+html{
+	background-image: url("../pictures/backgrounds/register_body_background.jpg");
+	background-size: cover;
+	width:100%;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+}
+.forms{
+	font-family: "Bellota-LightItalic", sans-serif;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7%;
+	min-width: 450px;
+	border:1px solid #EDEDED;
+	border-radius: 6px;
+	width: 33%;
+	padding: 5px;
+	opacity: 0.9;
+}
+
+.login_header h2{
+	font-family: "Bellota-Bold", sans-serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #f4a950;
+	text-shadow: 0.5px 0.1px 1px #ffffff;
+	/*font-size: 300%;*/
+	
+
+}
+.login_header{
+	font-family: "Bellota-LightItalic", sans-serif;
+	/*text-align: center;*/
+	width: 100%;
+	height: 90px;
+	background-color: #161b21;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+
+
+}
+a{
+	text-decoration: none;
+	color: #161b21;
+}
+
+input[type="submit"] {
+	font-family: "Bellota-LightItalic", sans-serif;
+	background-color: #161b21;
+	border:	1px solid #161b21;
+	border-radius: 3px;
+	margin-top: 5px;
+	color:#fff;
+	padding: 5px 10px 5px 10px;
+	
+	
+}
+
+.logo {
+	height: 50px; 
+	width: 50px; 
+	float: left; 
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.logo_title {
+	
+}
+.second {
+	display: none;
+}
+

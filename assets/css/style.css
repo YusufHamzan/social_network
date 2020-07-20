@@ -1,0 +1,57 @@
+@font-face{
+	font-family: 'Bellota-BoldItalic';
+	src: url("../fonts/Bellota-BoldItalic.otf");
+}
+@font-face{
+	font-family: 'Bellota-Bold';
+	src: url("../fonts/Bellota-Bold.otf");
+}
+body {
+    padding-top: 30px;
+  }
+
+
+h5{
+	color: indigo;
+}
+
+.left_right_card {
+	width: 100%;
+	padding: 10px;
+	
+}
+.row {
+	width: 100%;
+}
+.card-img-top {
+	border: 1px solid pink;
+	/*height: 160px;*/
+	width: 100%;
+
+
+}
+.card-title{
+	font-size: 1rem;
+}
+div.a{
+	line-height: 2px;
+}
+
+
+.posts_card{
+	margin-top: 5px;
+	/*width:60%;*/
+	/*height: 150px;	*/	
+}
+#post_area{
+	width: 100%;
+	overflow: yes;
+	height: 80px;
+}
+#post_bttn{
+	width: 100%;
+}
+#post_bttn:active{
+	padding: 5px 5px 5px 5px;
+}
+

@@ -1,0 +1,49 @@
+.navbar {
+	
+	background-color: #142233; /*#161b21*/; /*#2980b9;*/
+	/*border: 1px solid #8e44ad;
+	*/
+	position: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.navbar-brand a{
+	font-family: "Bellota-Bold", sans-serif;	
+	color: #f4a950;
+	text-shadow: 0.5px 0.1px 1px #ffffff;
+	margin-top: 40px;
+	
+}
+.navbar-brand img{
+	margin-bottom: 3px;
+}
+
+ .navbar-brand a:hover {
+	background-color: transparent;
+	text-decoration: none;
+
+}
+
+
+.navbar nav {
+	font-size: 1.5rem;
+	/*display: inline-flex;*/
+	float: right;
+	font-family: "Bellota-BoldItalic", sans-serif;
+	color: #f4a950;
+
+}
+
+/*@media screen and (max-width: 500px) {
+  .navbar li {
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+*/
+
+.box_in {
+	
+	color: white;
+}

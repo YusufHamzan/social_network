@@ -1,0 +1,41 @@
+.card {
+	margin-top: 10px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+	border:1px solid rgba(0, 0, 0, 0.5);*/
+}
+.card-head {
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.7);	
+	padding: 5px 5px 2px 5px;
+	position: relative;
+	display: inline;
+	float: left;
+}
+.footer-card {
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+
+}
+#icon_3dot {
+	float: right;
+	color: black;
+}
+.name_date_time {
+	line-height: 18px;
+}
+.ss{
+	float: left;
+	padding: 5px;
+}
+.added_by a:hover {
+	background-color: transparent;
+	text-decoration: none;
+}
+.footer-card a:hover {
+	background-color: transparent;
+	text-decoration: none;
+}
+.postcard {
+	width: 100%;
+}
